@@ -6,9 +6,9 @@ import { StyleSheet, Text, View } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import SplashScreen from './Components/SplashScreen';
 import Login from './Components/Login';
-import Home from './Components/Home';
 import { useEffect, useState } from 'react';
-import Tweets from './Components/Tweets';
+import HomeScreen from './Components/HomeScreen';
+import Navigation from './Components/Navigation';
 
 export default function App() {
 
@@ -31,7 +31,9 @@ export default function App() {
   },[])
   return (
     <SafeAreaProvider>
-      <Tweets></Tweets>
+        {/* <HomeScreen/> */}
+        <Navigation>
+        </Navigation>
     </SafeAreaProvider>
   );
 }
