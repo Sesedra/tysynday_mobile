@@ -7,7 +7,7 @@ import Sedra from '../assets/sedra.jpg'
 
 export default function Post(props){
     return(
-        <LinearGradient colors={['#474747', '#1C1C1C']} start={{x: 0, y: 0}} end={{x:0.80, y: 1}} style={{borderWidth:1,borderColor:'#474747', width:'88%',height:'auto',borderRadius:20,marginHorizontal:22, marginTop:10}}>
+        <LinearGradient colors={['#474747', '#1C1C1C']} start={{x: 0, y: 0}} end={{x:0.80, y: 1}} style={{borderWidth:1,borderColor:'#474747', width:'88%',height:'auto',borderRadius:20,marginHorizontal:22, marginVertical:10,}}>
         <View style= {{width:"100%",height:'auto',borderRadius:20,marginBottom:6, }}>
             <View style ={{width:"100%",height:"auto",flexDirection:"row",marginTop:10, marginBottom:3}}>
                 <Image source={props.ProfileImg} style={{borderRadius:30, resizeMode:'cover', width:45, height:45,marginLeft:20}}></Image>

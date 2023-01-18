@@ -7,13 +7,17 @@ import TabBar from './TabBar';
 import Profile from '../assets/rakooot.png';
 import Post from './Post';
 import data from './data';
+import Sedra from '../assets/sedra.jpg';
+import messagedata from './MessageData';
+import Message from './Message';
 
-// Post's....
-
-export default function Notification() {
+export default function NotificationBox({ navigation }) {
     return (
-        <View style={{padding: 0, flex:1, flexDirection:'column', backgroundColor:'#1C1C1C'}}>
-            <View style={{backgroundColor:'#1C1C1C', flex:1}}>
+        <View style={{backgroundColor:'#1C1C1C', flex:1}}>
+            <View style={{backgroundColor:'#1C1C1C',width:'90%', height:'auto',marginTop:30,marginHorizontal:10, flexDirection:'row', alignItems:'center', justifyContent:'space-between'}}>
+                <Text style={{color:'#fff', fontSize:30, fontWeight:'bold', marginLeft:10}}>Notifications</Text>
+
+            </View>
                 <ScrollView style={{flex:1}}>
                      <View style ={{width:"100%",height:'auto',marginVertical:15,flexDirection:"row", marginBottom:3,alignContent:'center'}}>
                         <Image source={Profile} style={{borderRadius:30, resizeMode:'cover', width:50, height:50,marginLeft:20}}></Image>
@@ -30,6 +34,5 @@ export default function Notification() {
                     </View>          
                 </ScrollView>
             </View>
-        </View>
     );
 }

@@ -10,7 +10,7 @@ import data from './data';
 
 // Post's....
 
-export default function HomeSceen() {
+export default function HomeSceen({ navigation }) {
     return (
         <View style={{padding: 0, flex:1, flexDirection:'column', backgroundColor:'#1C1C1C'}}>
             <Header></Header>

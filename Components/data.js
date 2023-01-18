@@ -37,10 +37,10 @@ const data = [
     },
     {
         _id: 4,
-        username: 'Junnot',
+        username: 'Iaho',
         profilePic: require('../assets/sedra.jpg'),
         postTime: '19 mins ago',
-        post: "Heyyy, mitady olona hanao logo sy hanavao logo efa misy azafady 🙏, manasa anao hiditra amin'ny hafatra miafina #JunnotBogosy",
+        post: "Heyyy, mitady olona hanao logo sy hanavao logo efa misy azafady 🙏, manasa anao hiditra amin'ny hafatra miafina #Hello",
         liked: false,
         likes: '69',
         comments: '17',

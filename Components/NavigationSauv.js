@@ -7,7 +7,7 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import HomeScreen from './HomeScreen.js';
 import MessageScreen from './MessageBox.js';
 import AddPostScreen from './HomeScreen.js';
-import NotificationScreen from './NotificationBox.js';
+import NotificationScreen from './Notification.js';
 import ProfileScreen from './Notification.js';
 
 //Screen names
